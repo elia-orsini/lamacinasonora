@@ -1,1 +1,1 @@
-insomniaevents.xyz
+https://insomniaevents.xyz
