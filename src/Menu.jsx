@@ -48,9 +48,9 @@ function Menu() {
 
       {
       show ? 
-          <video className='absolute z-0 transition ease-in-out transform duration-2000 top-0 opacity-0 xl:opacity-100 left-1/2 -translate-x-full mx-auto min-h-screen max-h-screen' src={'bot.mp4'} autoplay="true" loop="true" playsinline="true" muted="true"/>
+          <video className='absolute z-0 transition ease-in-out transform duration-2000 top-0 opacity-0 xl:opacity-100 left-1/2 -translate-x-full mx-auto min-h-screen max-h-screen' src={'bot2.mp4'} autoplay="true" loop="true" playsinline="true" muted="true"/>
         : 
-          <video className='absolute z-0 transition ease-in-out transform duration-2000 top-0 left-1/2 -translate-x-1/2 mx-auto min-h-screen max-h-screen' src={'bot.mp4'} autoplay="true" loop="true" playsinline="true" muted="true"/>
+          <video className='absolute z-0 transition ease-in-out transform duration-2000 top-0 left-1/2 -translate-x-1/2 mx-auto min-h-screen max-h-screen' src={'bot2.mp4'} autoplay="true" loop="true" playsinline="true" muted="true"/>
       }
 
       {
