@@ -5,6 +5,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function Menu() {
   const [show, setShow] = useState(false);
+  const [contacts, setContacts] = useState(false);
 
 
   return (
@@ -12,27 +13,57 @@ function Menu() {
 
       <Transition
         show={show}
-        enter="transition-opacity duration-3500"
+        enter="transition-opacity duration-100"
         enterFrom="opacity-0"
         enterTo="opacity-100"
         leave="transition-opacity duration-1000"
         leaveFrom="opacity-100"
         leaveTo="opacity-0"
       >
-        <div className="absolute max-h-screen z-10 tracking-wider leading-2 top-32 md:top-10 xl:top-10 xl:right-7 right-3 xl:left-[55rem] md:left-[42rem] left-2 max-w-full text-base md:text-lg xl:text-xl text-right font-semibold text-white">
-          <p>
-            <a target="_blank" className="hover:underline underline-offset-2" href="https://www.facebook.com/InsomniaPageOfficial/photos/?ref=page_internal">photos</a> <br />
-            <a target="_blank" className="hover:underline underline-offset-2" href="https://fb.watch/8f-8HncXZD/">aftermovie</a> <br />
-            <a className="hover:underline underline-offset-2" href="#">contacts</a> <br />
-            <br />
-            <span className="relative z-10 w-[32rem] font-light tracking-wide overflow-scrollable">
-              IN$0MN1A nasce come un modo per esprimersi artisticamente attraverso eventi e progetti musicali.
-              Il suono di IN$0MN1A è basato sull’Hip-Hop, la Trap e la Bass Music con una curatissima selezione musicale.
-              La nostra comunicazione cerca di unire due scene, quella hip-hop e quella elettronica, utilizzando grafiche scure
-              ma accattivanti e rivisitando l’arte classica con la modernità dell’estetica informatica.
-            </span>
-          </p> 
-        </div>
+        <Transition show={!contacts} enter="transition-opacity duration-2000" enterFrom="opacity-0" enterTo="opacity-100" leave="transition-opacity duration-500" leaveFrom="opacity-100" leaveTo="opacity-0">
+          <div className="absolute max-h-screen z-10 tracking-wider leading-2 top-32 md:top-10 xl:top-10 xl:right-7 right-3 xl:left-[55rem] md:left-[42rem] left-2 max-w-full text-base md:text-lg xl:text-xl text-right font-semibold text-white">
+            <p>
+              <a target="_blank" className="hover:underline font-bold underline-offset-2" href="https://www.facebook.com/InsomniaPageOfficial/photos/?ref=page_internal">photos</a> <br />
+              <a target="_blank" className="hover:underline font-bold underline-offset-2" href="https://fb.watch/8f-8HncXZD/">aftermovie</a> <br />
+              <button className="text-left mt-0 font-semibold hover:underline underline-offset-2" onClick={() => setContacts(!contacts)}>contacts</button> <br />
+              <br />
+              <span className="relative z-10 w-[32rem] font-light tracking-wide overflow-scrollable">
+                IN$0MN1A nasce come un modo per esprimersi artisticamente attraverso eventi e progetti musicali.
+                Il suono di IN$0MN1A è basato sull’Hip-Hop, la Trap e la Bass Music con una curatissima selezione musicale.
+                La nostra comunicazione cerca di unire due scene, quella hip-hop e quella elettronica, utilizzando grafiche scure
+                ma accattivanti e rivisitando l’arte classica con la modernità dell’estetica informatica.
+              </span>
+            </p> 
+          </div>
+        </Transition>
+        <Transition show={contacts} enter="transition-opacity duration-2000" enterFrom="opacity-0" enterTo="opacity-100" leave="transition-opacity duration-500" leaveFrom="opacity-100" leaveTo="opacity-0">
+          <div className="absolute max-h-screen z-10 tracking-wider leading-2 top-32 md:top-10 xl:top-10 xl:right-7 right-3 xl:left-[55rem] md:left-[42rem] left-2 max-w-full text-base md:text-lg xl:text-xl text-right font-semibold text-white">
+              <p>
+                <br />
+                <span className="relative z-10 w-[32rem] font-light tracking-wide overflow-scrollable">
+                  email: <a href="mailto:mailto:info@insomniaevents.xyz">info@insomniaevents.xyz</a><br />
+                  instagram: <a href="https://instagram.com/insomnia.01">@insomnia.01</a><br />
+                  facebook: <a href="https://facebook.com/InsomniaPageOfficial">InsomniaPageOfficial</a><br /><br />
+                  <button className="text-left mt-0 font-semibold hover:underline underline-offset-2" onClick={() => setContacts(!contacts)}>go back</button> <br />
+                </span>
+              </p> 
+            </div>
+          {/* <div className="absolute text-right right-10 w-[38rem] z-0 max-h-screen text-2xl scrollable overflow-scroll">
+            <p className="mt-10 font-semibold text-3xl">
+              <p className="font-black mb-10">productions</p>
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipiscing elit, sed do<br />
+              eiusmod tempor incididunt ut labore et<br />
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipiscing elit, sed do<br />
+              eiusmod tempor incididunt ut labore et<br />
+              Lorem ipsum dolor sit amet,<br />
+              consectetur adipiscing elit, sed do<br />
+              eiusmod tempor incididunt ut labore et<br />
+              <button className="font-bold italic mt-10 mr-2" onClick={() => setContacts(!contacts)}>go back</button><br />
+            </p>
+          </div> */}
+        </Transition>
         <div className="absolute z-10 bottom-12 xl:block hidden tracking-widest leading-6 right-48 max-w-full text-sm text-right font-thin text-white">
           <p className="text-white text-left mt-32 mr-[16rem]">
             return &#123; <br />
@@ -43,9 +74,9 @@ function Menu() {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/alberto_comini">como</a><br /> 
             &nbsp;&nbsp;&nbsp;&nbsp; ], <br />
             &nbsp;&nbsp;&nbsp;&nbsp; const <span className="font-extrabold">visuals</span> = [ <br /> 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/elig.ace">elig.ace</a><br /> 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/elig.graphics">elig.graphics</a><br /> 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/kristoffer.castro">kristoffer.castro</a><br /> 
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a className="hover:underline" href="https://instagram.com/elig.ace">elig.ace</a><br /> 
             &nbsp;&nbsp;&nbsp;&nbsp; ], <br />  
             &#125; 
           </p> 

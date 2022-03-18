@@ -11,9 +11,9 @@ function Title() {
                 <p className='xl:mt-2 mt-2 xl:ml-[0.1rem] ml-0.3 text-xs xl:text-[0.94rem] text-white tracking-wider xl:tracking-widest'>Music | Events | Culture</p>
             </div>
             <div className="absolute left-4 xl:left-16 bottom-5 xl:bottom-10 space-x-10 xl:space-x-[3.65rem] z-10 text-lg xl:text-xl text-white">
-                <a href="mailto:info@insomniaevents.xyz"><i class="bi bi-envelope"></i></a>
                 <a target="_blank" href="https://facebook.com/InsomniaPageOfficial"><i class="bi bi-facebook"></i></a>
                 <a target="_blank" href="https://instagram.com/insomnia.01"><i class="bi bi-instagram"></i></a>
+                <a href="https://open.spotify.com/user/e1ex6sgsk9ocg117lon5jfx9n?si=QEVdTBm9QECsK6X7ORDcRQ"><i class="bi bi-spotify"></i></a>
             </div>
        </>
     );
