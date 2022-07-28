@@ -150,6 +150,7 @@ function Menu() {
         </div>
       </Transition>
 
+
       {
       show ? 
           <img className='absolute z-0 transition ease-in-out transform duration-2000 top-0 opacity-0 xl:opacity-100 left-1/2 -translate-x-full mx-auto mt-40 md:mt-0 xl:min-h-screen max-h-screen' src="macina-3d.gif" />
