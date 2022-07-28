@@ -11,7 +11,7 @@ function App() {
         <meta charSet="utf-8" />
         <meta name="description" content="INSOMNIA is music, events and culture. To enter our world, join our parties. Find more info on our main socials." />
       </Helmet>
-      <div className='absolute top-0 left-0 bg-black h-screen w-screen'>
+      <div className='absolute top-0 left-0 bg-white h-screen w-screen'>
           <Title />
           <Menu />
       </div>
