@@ -7,9 +7,9 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>IN$0MN1A</title>
+        <title>La Macina Sonora</title>
         <meta charSet="utf-8" />
-        <meta name="description" content="INSOMNIA is music, events and culture. To enter our world, join our parties. Find more info on our main socials." />
+        <meta name="description" content="La Macina Sonora. Studio di registrazione audio" />
       </Helmet>
       <div className='absolute top-0 left-0 bg-white h-screen w-screen'>
           <Title />
