@@ -30,8 +30,8 @@ function Menu() {
                 <button className="absolute text-left left-0 mt-1 hover:underline" onClick={() => setStudio(!thestudio)}>the studio</button><br />
                 <button className="text-left mt-3.5 hover:underline" onClick={() => setRecordings(!recordings)}>recordings</button><br />
                 <button className="text-left mt-3 hover:underline" onClick={() => setProductions(!productions)}>productions</button><br />
+                <button className="text-left mt-3 hover:underline" onClick={() => setSoundSystem(!soundSystem)}>soundsystem</button><br />
                 <button className="text-left mt-3 hover:underline" onClick={() => setContacts(!contacts)}>contacts</button><br />
-                <button className="text-left mt-3 hover:underline" onClick={() => setSoundSystem(!soundSystem)}>sound system</button><br />
               </p>
             </Transition>
             <Transition show={contacts} enter="transition-opacity duration-1000" enterFrom="opacity-0" enterTo="opacity-100" leave="transition-opacity duration-500" leaveFrom="opacity-100" leaveTo="opacity-0">
@@ -123,26 +123,25 @@ function Menu() {
               <div className="absolute right-0 xl:right-10 w-[51rem] z-0 max-h-screen text-2xl">
                   <div className="absolute scrollable overflow-scroll opacity-0 xl:opacity-100 h-screen top-0 mr-10 font-semibold space-y-2 w-[18rem] text-justify text-lg">
                     <img className="mt-2 w-11/12 mx-auto" src="./imgs/10-min.jpg" />
-                    <img className="w-11/12 mx-auto" src="./imgs/16-min.jpg" />
-                    <img className="w-11/12 mx-auto" src="./imgs/17-min.jpg" />
-                    <img className="w-11/12 mx-auto" src="./imgs/18-min.jpg" />
-                    <img className="w-11/12 mx-auto" src="./imgs/15-min.jpg" />
-                    <img className="w-11/12 mx-auto" src="./imgs/14-min.jpg" />
-                    <img className="w-11/12 mx-auto" src="./imgs/4-min.jpg" />
-                    <img className="w-11/12 mx-auto" src="./imgs/5-min.jpg" />
-                    <img className="w-11/12 mx-auto" src="./imgs/6-min.jpg" />
-                    <img className="w-11/12 mx-auto" src="./imgs/7-min.jpg" />
-                    <img className="w-11/12 mx-auto" src="./imgs/9-min.jpg" />
-                    <img className="w-11/12 mx-auto" src="./imgs/1-min.jpg" />
-                    <img className="w-11/12 mx-auto" src="./imgs/11-min.jpg" />
-                    <img className="w-11/12 mx-auto" src="./imgs/3-min.jpg" />
-                    <img className="w-11/12 mx-auto" src="./imgs/12-min.jpg" />
-                    <img className="w-11/12 mx-auto" src="./imgs/13-min.jpg" />
-                    <img className="w-11/12 mx-auto" src="./imgs/2-min.jpg" />
+                    <img className="w-11/12 mx-auto" src="./imgs/1S.jpeg" />
+                    <img className="w-11/12 mx-auto" src="./imgs/2S.jpeg" />
+                    <img className="w-11/12 mx-auto" src="./imgs/3S.jpeg" />
+                    <img className="w-11/12 mx-auto" src="./imgs/4S.jpeg" />
+                    <img className="w-11/12 mx-auto" src="./imgs/5S.jpeg" />
+                    <img className="w-11/12 mx-auto" src="./imgs/6S.jpeg" />
+                    <img className="w-11/12 mx-auto" src="./imgs/7S.jpg" />
+                    <img className="w-11/12 mx-auto" src="./imgs/8S.jpeg" />
+                    <img className="w-11/12 mx-auto" src="./imgs/9S.jpeg" />
+                    <img className="w-11/12 mx-auto" src="./imgs/10S.jpeg" />
+                    <img className="w-11/12 mx-auto" src="./imgs/11S.JPG" />
+                    <img className="w-11/12 mx-auto" src="./imgs/12S.JPG" />
                   </div>
                   <div className="absolute mt-0 xl:mt-10 bg-white right-0 font-semibold w-screen pl-10 xl:pl-0 xl:w-[33rem] text-justify text-lg">
-                    <p className="font-black text-3xl mb-7 text-right">sound system</p>
-                    sound system text<br />
+                    <p className="font-black text-3xl mb-7 text-right">
+                      Sound System
+                    </p>
+                    La Macina Sonora Soundsystem nasce dall'idea di portare il suono del nostro studio anche nel mondo Live affiancando gli artisti e i professionisti che hanno scelto di affidarsi al nostro team per la propria musica. Abbiamo costituito il nostro impianto prevalentemente di speaker RCF per concerti Live di band e musicisti mentre abbiamo diversi impianti FBT e Proel per DJ Set ed eventi elettronici. Il nostro parco microfoni per le esibizioni dal vivo è ampio e può soddisfare le esigenze sia di piccole formazioni che di concerti per migliaia di persone.Per qualsiasi informazione sui nostri servizi o per chiedere un preventivo personalizzato non esitare a contattarci.
+                    <br />
                     <button className="fixed xl:-bottom-14 -bottom-12 px-2 ml-2 rounded-xl border text-white border-1 border-white py-1 bg-black font-semibold text-lg mt-5 mr-2 mb-28 hover:bg-white hover:text-black transition-colors hover:border-black duration-500" onClick={() => setSoundSystem(!soundSystem)}>go back</button><br />
                   </div>
               </div>
