@@ -10,16 +10,6 @@ function Title() {
                 LA MACINA SONORA
             </p>
         </div>
-        {/* <div className='relative ml-11 mt-20 z-10 space-y-2 text-sm'>
-            <a href="https://www.facebook.com/lamacinasonora"><i class="bi bi-facebook"></i></a><br />
-            <a href="https://www.instagram.com/lamacinasonora/"><i class="bi bi-instagram"></i></a><br />
-            <a href="mailto:lamacinasonora@gmail.com"><i class="bi bi-envelope"></i></a><br />
-        </div>
-        <div className='absolute left-11 top-20 z-10 space-y-2 opacity-0 hover:opacity-100 transition transform duration-500 text-sm'>
-            <a href="https://www.facebook.com/lamacinasonora"><span className='ml-7'>@lamacinasonora</span></a><br />
-            <a href="https://www.instagram.com/lamacinasonora/"><span className='ml-7'>@lamacinasonora</span></a><br />
-            <a href="mailto:lamacinasonora@gmail.com"><span className='ml-7'>lamacinasonora@gmail.com</span></a><br />
-        </div> */}
         <div className="absolute left-6 xl:left-10 bottom-5 xl:bottom-10 space-x-8 xl:space-x-14 z-10 text-base xl:text-xl text-black">
             <a target="_blank" href="https://www.facebook.com/lamacinasonora"><i class="bi bi-facebook"></i></a>
             <a target="_blank" href="https://www.instagram.com/lamacinasonora"><i class="bi bi-instagram"></i></a>
