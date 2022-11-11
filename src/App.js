@@ -14,12 +14,11 @@ function App() {
         <meta property="og:title" content="La Macina Sonora" />
         <meta property="og:description" content="Macina Sonora descrizione" />
         <meta property="og:image" content="/macina-logo.png" />
-        <meta name="og:site_name" content="ARCHIVE.pdf" />
+        <meta name="og:site_name" content="La Macina Sonora" />
         <meta property='twitter:title' content="La Macina Sonora" />
         <meta property='twitter:image' content="/macina-logo.png"/>
         <meta name="twitter:card" content="summary_large_image"/>   
 
-        <title>{title}</title>
         <meta name="description" content="Macina Sonora descrizione" />
         <meta name="keywords" content="Brescia, music studio, recording, sala di registrazione, studio musicale, Montichiari, musica, Rino Bellandi" />
         <meta name="author" content="Rino Bellandi" />
