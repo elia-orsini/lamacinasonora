@@ -26,7 +26,7 @@ function Menu() {
       >
         <div className="absolute z-10 tracking-widerleading-2 top-32 xl:top-0 right-5 max-w-full text-lg xl:text-3xl text-right font-semibold">
             <Transition show={!productions && !thestudio && !recordings && !contacts && !soundSystem} enter="transition-opacity duration-1000" enterFrom="opacity-0" enterTo="opacity-100" leave="transition-opacity duration-500" leaveFrom="opacity-100" leaveTo="opacity-0">
-              <p className="absolute mb-20 right-20 w-40 text-4xl top-10 text-left">
+              <p className="absolute mb-20 right-20 w-48 text-4xl top-10 text-left">
                 <button className="absolute text-left left-0 mt-1 hover:underline" onClick={() => setStudio(!thestudio)}>the studio</button><br />
                 <button className="text-left mt-3.5 hover:underline" onClick={() => setRecordings(!recordings)}>recordings</button><br />
                 <button className="text-left mt-3 hover:underline" onClick={() => setProductions(!productions)}>productions</button><br />
