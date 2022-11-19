@@ -19,7 +19,7 @@ function App() {
         <meta property='twitter:image' content="/macina-logo.png"/>
         <meta name="twitter:card" content="summary_large_image"/>   
 
-        <meta name="description" content="Macina Sonora descrizione" />
+        <meta name="description" content="La Macina Sonora: studio di registrazione, produzione, servizi di Mixing e Mastering, service audio e network artistico per realizzare musica, contenuti multimediali ed eventi." />
         <meta name="keywords" content="Brescia, music studio, recording, sala di registrazione, studio musicale, Montichiari, musica, Rino Bellandi" />
         <meta name="author" content="Rino Bellandi" />
       </Helmet>
