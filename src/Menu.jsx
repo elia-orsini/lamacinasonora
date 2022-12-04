@@ -11,7 +11,6 @@ function Menu() {
   const [contacts, setContacts] = useState(false);
   const [soundSystem, setSoundSystem] = useState(false);
 
-
   return (
     <div>
 
