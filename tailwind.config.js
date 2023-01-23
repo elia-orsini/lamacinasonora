@@ -4,10 +4,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      transitionDuration: { 
+      transitionDuration: {
         '2000': '2000ms',
         '3000': '3000ms',
-        '3500': '3500ms',       
+        '3500': '3500ms',
       }
     },
   },
