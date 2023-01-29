@@ -60,7 +60,10 @@ function Menu() {
           </Transition>
 
           <Transition show={productions} enter="transition-opacity duration-1000" enterFrom="opacity-0" enterTo="opacity-100" leave="transition-opacity duration-500" leaveFrom="opacity-100" leaveTo="opacity-0">
-            <div className="absolute right-0 xl:right-10 w-[33rem] z-0 max-h-screen text-2xl">
+            <div className="absolute right-0 xl:right-10 w-[50rem] z-0 max-h-screen text-2xl">
+              <div className="absolute scrollable xl:opacity-100 opacity-0 pb-40 overflow-scroll h-screen top-0 mr-10 text-center font-semibold  space-y-2 w-[17rem] text-justify text-lg">
+                <img className="w-11/12 mx-auto" src="./imgs/14.jpeg" /><p className="text-center py-1 font-base text-xs">Andrea Butturini - Polaroid</p>
+              </div>
               <div className="absolute mt-0 xl:mt-10 right-0 font-semibold pl-10 xl:pl-0 w-screen xl:w-[33rem] md:w-[30em] text-justify text-lg">
                 <p className="font-black mb-7 text-3xl text-right">productions</p>
                 <p className="mb-40">
@@ -121,7 +124,6 @@ function Menu() {
                 <img className="w-11/12 mx-auto" src="./imgs/11.jpeg" /><p className="text-center py-1 font-base text-xs">Villy Flare - Villy sulla Luna Vol. 3</p>
                 <img className="w-11/12 mx-auto" src="./imgs/12.jpeg" /><p className="text-center py-1 font-base text-xs">Bueno & Michele_Battart - Fuoco</p>
                 <img className="w-11/12 mx-auto" src="./imgs/13.jpeg" /><p className="text-center py-1 font-base text-xs">Cenere - Sirene</p>
-                <img className="w-11/12 mx-auto" src="./imgs/14.jpeg" /><p className="text-center py-1 font-base text-xs">Andrea Butturini - Polaroid</p>
                 <img className="w-11/12 mx-auto" src="./imgs/15.jpeg" /><p className="text-center py-1 font-base text-xs">Bueno - Paradiso</p>
               </div>
               <div className="absolute scrollable pb-40 overflow-scroll h-screen right-0 font-semibold pl-10 bg-white xl:pl-0 w-screen xl:w-[33rem] md:w-[30em] text-justify text-lg">
