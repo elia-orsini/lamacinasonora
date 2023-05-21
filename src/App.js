@@ -12,7 +12,7 @@ function App() {
         <meta name="description" content="La Macina Sonora. Studio di registrazione audio" />
 
         <meta property="og:title" content="La Macina Sonora" />
-        <meta property="og:description" content="Macina Sonora descrizione" />
+        <meta property="og:description" content="La Macina Sonora: studio di registrazione, produzione, servizi di Mixing e Mastering, service audio e network artistico per realizzare musica, contenuti multimediali ed eventi." />
         <meta property="og:image" content="/macina-logo.png" />
         <meta name="og:site_name" content="La Macina Sonora" />
         <meta property='twitter:title' content="La Macina Sonora" />
