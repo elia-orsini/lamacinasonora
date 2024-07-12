@@ -32,7 +32,7 @@ export default function Menu() {
               <button className="text-left mt-3.5 hover:underline" onClick={() => setRecordings(!recordings)}>recordings</button><br />
               <button className="text-left mt-3 hover:underline" onClick={() => setProductions(!productions)}>productions</button><br />
               <button className="text-left mt-3 hover:underline" onClick={() => setSoundSystem(!soundSystem)}>soundsystem</button><br />
-              <button className="text-left mt-3 hover:underline" onClick={() => setEvents(!events)}>eventi</button><br />
+              <button className="text-left mt-3 hover:underline" onClick={() => setEvents(!events)}>events</button><br />
               <button className="text-left mt-3 hover:underline" onClick={() => setContacts(!contacts)}>contacts</button><br />
             </p>
           </Transition>
